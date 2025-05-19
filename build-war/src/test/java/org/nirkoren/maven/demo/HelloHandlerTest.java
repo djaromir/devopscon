@@ -11,6 +11,7 @@ public class HelloHandlerTest {
 		String response = handler.sayHello();
 		// Due to the code: This test will never fail :)
 		assertNotNull(response);
+		assertTrue(response.contains("Laptop"));
 	}
 
 }
